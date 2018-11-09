@@ -1,6 +1,9 @@
 #bg {
 	text-align: center;
 	background-image: url('https://images.unsplash.com/photo-1456659122552-6ee1788174bb?ixlib=rb-0.3.5&s=c3e32f7529e4a64d158b4dd801595ee4&w=1000&q=80');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
 }
 
 .text {
