@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+}
+
+table {
+	background-color: gray;
+	color: white;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+ul {
+	font: green;
+}
+
+li {
+	display: inline;
+}
+
+#info {
+	color: white;
+}
+
+.questions {
+	color: white;
+}
+
+.answer {
+	padding-left: 15px;
+}
