@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,10 +12,9 @@
 
 
 		<div id="validation">
-
 			<div class="row justify-content-center">
-				<div class="col-12 col-md-8 col-lg-6 pb-5">
-          <img id="logo" src="./src/images/logo.jpg" alt="logo">
+				<dialog open class="col-12 col-md-8 col-lg-6 pb-5">
+          			<img id="logo" src="./src/images/logo.jpg" alt="logo">
 
 					<form action="" method="post">
 						<div class="card border-success">
@@ -60,13 +60,14 @@
 							</div>
 						</div>
 					</form>
-          <div v-if="notSamePasswords" style="background-color: white; border-radius: 10px; padding: 5px">
-            <h3 class="text-center"> Not Matching </h3>
-          </div>
+					<div v-if="notSamePasswords" style="background-color: lightgray; border-radius: 10px; padding: 5px; margin: 5px">
+						<h3 class="text-center"> Not Matching </h3>
+					</div>
 
-				</div>
+				</dialog>
 			</div>
 		</div>
+		</dialog>
 	</div>
 </body>
 

@@ -1,5 +1,7 @@
-body {
+dialog {
 	background-color: darkgreen;
+	border: 0ch;
+	border-radius: 10%;
 }
 
 .container {
