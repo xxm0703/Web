@@ -1,7 +1,26 @@
 dialog {
 	background-color: darkgreen;
 	border: 0ch;
-	border-radius: 10%;
+	border-radius: 5%;
+}
+
+#content {
+	padding: 0 5%;
+	
+}
+
+#advice {
+	background-color: lightgray; 
+	padding: 5px; 
+	margin: 5px;
+}
+
+/* #advice:hover {
+	background-color: #999999;
+} */
+
+body {
+	background-color: #999999;
 }
 
 .container {
