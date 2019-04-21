@@ -9,18 +9,29 @@ dialog {
 	
 }
 
-#advice {
-	background-color: lightgray; 
-	padding: 5px; 
-	margin: 5px;
+nav {
+	background-color: #861949;
+	padding: 1%;
 }
 
-/* #advice:hover {
-	background-color: #999999;
-} */
+nav > a {	
+	color: wheat;
+}
+
+nav > a:hover {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+#advice {
+	background-color: lightgray; 
+	padding: 2%; 
+	margin-top: 10%;
+	border-radius: 10px;
+}
 
 body {
-	background-color: #999999;
+	background-color: #7c0932;
 }
 
 .container {
