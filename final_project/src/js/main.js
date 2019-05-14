@@ -19,8 +19,9 @@ var vm = new Vue({
 	}
 })
 
-document.onload = () => {
+function setFooter() {
 	let footer = document.getElementById("footer-content");
+	console.log("da");
 
 	footer.innerText = "@Copyright " + Date.now + " by Martin Jordanov"
 }
