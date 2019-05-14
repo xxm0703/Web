@@ -77,36 +77,6 @@
 	</div>
 </body>
 
-<!-- <div id="app" v-cloak>
-
-	<h2>Password</h2>
-
-	<div class="password">
-		<input :class='{valid:passwordValidation.valid}' :type="passwordVisible ? 'text' : 'password'" v-model="password">
-		<button class="visibility" tabindex='-1' @click='togglePasswordVisibility' :arial-label='passwordVisible ? "Hide password" : "Show password"'>
-			<i class="material-icons">{{ passwordVisible ? "visibility" : "visibility_off" }}</i>
-		</button>
-	</div>
-
-	<input type="password" v-model.lazy='checkPassword'>
-
-	<transition name="hint" appear>
-		<div v-if='passwordValidation.errors.length > 0 && !submitted' class='hints'>
-			<h2>Hints</h2>
-			<p v-for='error in passwordValidation.errors'>{{error}}</p>
-		</div>
-	</transition>
-
-	<div class="matches" v-if='notSamePasswords'>
-		<p>Passwords don't match.</p>
-	</div>
-
-	<button @click='resetPasswords' v-if='passwordsFilled && !notSamePasswords && passwordValidation.valid'>
-		Submit
-	</button>
-
-</div> -->
-
 <head>
 	<script src="./src/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>

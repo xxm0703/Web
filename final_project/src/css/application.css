@@ -6,7 +6,7 @@ dialog {
 
 #content {
 	padding: 0 5%;
-	
+
 }
 
 nav {
@@ -14,18 +14,18 @@ nav {
 	padding: 1%;
 }
 
-nav > a {	
+nav>a {
 	color: wheat;
 }
 
-nav > a:hover {
+nav>a:hover {
 	color: whitesmoke;
 	text-decoration: none;
 }
 
 #advice {
-	background-color: lightgray; 
-	padding: 2%; 
+	background-color: lightgray;
+	padding: 2%;
 	margin-top: 10%;
 	border-radius: 10px;
 }
@@ -57,4 +57,20 @@ body {
 	width: 100px;
 	margin: 2% auto;
 	border-radius: 50%;
+}
+
+#game {
+	display: block;
+	
+	width: 80%;
+	height: 40%;
+	margin: 25% auto;
+	/* margin-top: 25%; */
+	background-color: gray;
+}
+
+#caption {
+	display: block;
+	align-self: center;
+	align-content: center;
 }
