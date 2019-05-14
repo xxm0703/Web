@@ -60,17 +60,14 @@ body {
 }
 
 #game {
-	display: block;
-	
 	width: 80%;
-	height: 40%;
-	margin: 25% auto;
-	/* margin-top: 25%; */
+	padding: 20%;
+	box-sizing: border-box;
+	position: relative;
 	background-color: gray;
 }
 
 #caption {
-	display: block;
+	position: absolute;
 	align-self: center;
-	align-content: center;
 }
