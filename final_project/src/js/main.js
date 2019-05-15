@@ -23,5 +23,5 @@ function setFooter() {
 	let footer = document.getElementById("footer-content");
 	console.log("da");
 
-	footer.innerText = "@Copyright " + Date.now + " by Martin Jordanov"
+	footer.innerText = "@Copyright " + (new Date).getFullYear() + " by Martin Jordanov"
 }

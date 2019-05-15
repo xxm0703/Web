@@ -14,7 +14,7 @@ nav {
 	padding: 1%;
 }
 
-nav>a {
+nav a {
 	color: wheat;
 }
 
@@ -68,6 +68,23 @@ body {
 }
 
 #caption {
-	position: absolute;
-	align-self: center;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: #96264d;
+}
+
+#footer-content {
+	text-align: center;
+	margin: initial auto;
+	color: antiquewhite;
+}
+
+.right-align {
+	float: right;
 }
