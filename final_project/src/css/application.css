@@ -88,3 +88,12 @@ footer {
 .right-align {
 	float: right;
 }
+
+h2 {
+	text-align: center;
+}
+
+h3,
+h4 {
+	display: inline;
+}
